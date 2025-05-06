@@ -3,6 +3,8 @@ local TweenService = game:GetService("TweenService")
 
 local plr = Players.LocalPlayer
 
+local Target = ""
+
 local function waitForChildRecursive(parent, childName)
     local child = parent:FindFirstChild(childName)
     while not child do
